@@ -1,3 +1,4 @@
+#gets meal times off the cds website
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
