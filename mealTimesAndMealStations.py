@@ -1,3 +1,4 @@
+#prints out the menu stations for each meal time
 import mealTimes
 import menuStations
 from datetime import datetime, timedelta
