@@ -1,4 +1,4 @@
-#prints the meal times for the day off the cds website
+#returns the meal times for the day
 import requests
 from bs4 import BeautifulSoup
 
