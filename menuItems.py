@@ -1,4 +1,4 @@
-#returns menu items for a day
+#returns menu items for a day, as well as how many menu items there are in a menu station
 import requests
 from bs4 import BeautifulSoup
 
