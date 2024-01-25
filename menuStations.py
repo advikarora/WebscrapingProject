@@ -1,7 +1,6 @@
-#prints all menu stations for the current day
+#returns all menu stations for the current day, as well as how many menu stations there are per meal time
 import requests
 from bs4 import BeautifulSoup
-
 
 def get_menu_stations(url):
     response = requests.get(url)
